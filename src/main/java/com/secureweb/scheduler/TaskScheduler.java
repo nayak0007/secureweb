@@ -21,9 +21,9 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import com.secureweb.scheduler.JustOneLock;
-import com.aspose.cells.Cells;
-import com.aspose.cells.Workbook;
-import com.aspose.cells.Worksheet;
+//import com.aspose.cells.Cells;
+//import com.aspose.cells.Workbook;
+//import com.aspose.cells.Worksheet;
 @Component
 public class TaskScheduler {
 	 private static final Logger LOGGER = LoggerFactory.getLogger(TaskScheduler.class);
@@ -78,7 +78,7 @@ public class TaskScheduler {
 	        }
 	    }
 	public static void jsonBuilder(ServerSocket ss) throws Exception{
-		 System.out.println("START time is now {}"+dateFormat.format(new Date()));	
+		/* System.out.println("START time is now {}"+dateFormat.format(new Date()));	
 	       Connection con= getDBConnection();
 	        JSONArray json = new JSONArray();
 			Object b=new Object();
@@ -147,7 +147,7 @@ public class TaskScheduler {
 					throw ex;
 				}
 			}
-			}
+			}*/
 		
 	}
 

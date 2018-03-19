@@ -13,7 +13,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <sqlite.version>3.18.0</sqlite.version>
     </properties>
 
     <dependencies>
@@ -32,16 +31,10 @@
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
               
-       <!--  <dependency>
+         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-        </dependency> -->
-        <dependency>
-            <groupId>org.xerial</groupId>
-            <artifactId>sqlite-jdbc</artifactId>
-            <version>${sqlite.version}</version>
-        </dependency> 
-
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
@@ -63,11 +56,11 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
         </dependency>
-        <dependency>
+      <!--   <dependency>
             <groupId>com.aspose</groupId>
             <artifactId>aspose-cells</artifactId>
             <version>9.0.0</version>
-        </dependency>
+        </dependency> -->
     </dependencies>
     <build>
         <plugins>
@@ -77,11 +70,11 @@
             </plugin>
         </plugins>
     </build>
-    <repositories>
-   <repository>
+   <!-- <repositories>
+    <repository>
        <id>AsposeJavaAPI</id>
        <name>Aspose Java API</name>
        <url>http://maven.aspose.com/artifactory/simple/ext-release-local/</url>
-   </repository>
-</repositories>
+   </repository> 
+</repositories>-->
 </project>
