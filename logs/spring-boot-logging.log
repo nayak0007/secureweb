@@ -1,0 +1,548 @@
+2017-09-22 15:43:44.904 2017-09-22 15:43:44 | INFO  | [main] com.secureweb.WebApplication:logStarting:48 - Starting WebApplication on SLAP263 with PID 10800 (D:\S2\MyOyster\eclipse-workspace-8\secureweb\target\classes started by Dipeshn in D:\S2\MyOyster\eclipse-workspace-8\secureweb)
+ 10800 --- [main] com.secureweb.WebApplication             : Starting WebApplication on SLAP263 with PID 10800 (D:\S2\MyOyster\eclipse-workspace-8\secureweb\target\classes started by Dipeshn in D:\S2\MyOyster\eclipse-workspace-8\secureweb)
+2017-09-22 15:43:44.920 2017-09-22 15:43:44 | INFO  | [main] com.secureweb.WebApplication:logStartupProfileInfo:666 - No active profile set, falling back to default profiles: default
+ 10800 --- [main] com.secureweb.WebApplication             : No active profile set, falling back to default profiles: default
+2017-09-22 15:43:44.989 2017-09-22 15:43:44 | INFO  | [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:prepareRefresh:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Fri Sep 22 15:43:44 IST 2017]; root of context hierarchy
+ 10800 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Fri Sep 22 15:43:44 IST 2017]; root of context hierarchy
+2017-09-22 15:43:47.324 2017-09-22 15:43:47 | INFO  | [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:postProcessAfterInitialization:328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd92bfc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd92bfc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-09-22 15:43:48.079 2017-09-22 15:43:48 | INFO  | [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:initialize:81 - Tomcat initialized with port(s): 8080 (http)
+ 10800 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-09-22 15:43:48.111 2017-09-22 15:43:48 | INFO  | [main] org.apache.catalina.core.StandardService:log:180 - Starting service Tomcat
+ 10800 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-09-22 15:43:48.113 2017-09-22 15:43:48 | INFO  | [main] org.apache.catalina.core.StandardEngine:log:180 - Starting Servlet Engine: Apache Tomcat/8.0.33
+ 10800 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2017-09-22 15:43:48.669 2017-09-22 15:43:48 | INFO  | [localhost-startStop-1] org.apache.jasper.servlet.TldScanner:log:180 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 10800 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-09-22 15:43:48.675 2017-09-22 15:43:48 | INFO  | [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/secureweb]:log:180 - Initializing Spring embedded WebApplicationContext
+ 10800 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/secureweb]     : Initializing Spring embedded WebApplicationContext
+2017-09-22 15:43:48.676 2017-09-22 15:43:48 | INFO  | [localhost-startStop-1] org.springframework.web.context.ContextLoader:prepareEmbeddedWebApplicationContext:272 - Root WebApplicationContext: initialization completed in 3709 ms
+ 10800 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3709 ms
+2017-09-22 15:43:49.072 2017-09-22 15:43:49 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 10800 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-22 15:43:49.072 2017-09-22 15:43:49 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 10800 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-22 15:43:49.072 2017-09-22 15:43:49 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 10800 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-22 15:43:49.072 2017-09-22 15:43:49 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 10800 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-22 15:43:49.072 2017-09-22 15:43:49 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.DelegatingFilterProxyRegistrationBean:configure:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+ 10800 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-09-22 15:43:49.072 2017-09-22 15:43:49 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.ServletRegistrationBean:onStartup:189 - Mapping servlet: 'dispatcherServlet' to [/]
+ 10800 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-22 15:43:49.559 2017-09-22 15:43:49 | INFO  | [localhost-startStop-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:createNativeEntityManagerFactory:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+ 10800 --- [localhost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-22 15:43:51.688 2017-09-22 15:43:51 | INFO  | [localhost-startStop-1] org.springframework.security.web.DefaultSecurityFilterChain:<init>:28 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d2a4a79, org.springframework.security.web.context.SecurityContextPersistenceFilter@68a3e6b3, org.springframework.security.web.header.HeaderWriterFilter@742564c7, org.springframework.security.web.authentication.logout.LogoutFilter@7ca1594d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@33d52a94, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f0b0f4d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46e4688e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71327fd, org.springframework.security.web.session.SessionManagementFilter@34315528, org.springframework.security.web.access.ExceptionTranslationFilter@17ecffed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@595c94b7]
+ 10800 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d2a4a79, org.springframework.security.web.context.SecurityContextPersistenceFilter@68a3e6b3, org.springframework.security.web.header.HeaderWriterFilter@742564c7, org.springframework.security.web.authentication.logout.LogoutFilter@7ca1594d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@33d52a94, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f0b0f4d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46e4688e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71327fd, org.springframework.security.web.session.SessionManagementFilter@34315528, org.springframework.security.web.access.ExceptionTranslationFilter@17ecffed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@595c94b7]
+2017-09-22 15:43:51.926 2017-09-22 15:43:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:initControllerAdviceCache:539 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Fri Sep 22 15:43:44 IST 2017]; root of context hierarchy
+ 10800 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Fri Sep 22 15:43:44 IST 2017]; root of context hierarchy
+2017-09-22 15:43:52.004 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/detail],methods=[GET]}" onto public java.util.List<com.secureweb.model.User> com.secureweb.web.RestWebController.getUserDetail(java.lang.String)
+ 10800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/detail],methods=[GET]}" onto public java.util.List<com.secureweb.model.User> com.secureweb.web.RestWebController.getUserDetail(java.lang.String)
+2017-09-22 15:43:52.004 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/updateuser],methods=[POST]}" onto public java.lang.String com.secureweb.web.RestWebController.updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+ 10800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/updateuser],methods=[POST]}" onto public java.lang.String com.secureweb.web.RestWebController.updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-09-22 15:43:52.004 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/edituser],methods=[GET]}" onto public java.util.List<com.secureweb.model.User> com.secureweb.web.RestWebController.getUser(java.lang.String)
+ 10800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/edituser],methods=[GET]}" onto public java.util.List<com.secureweb.model.User> com.secureweb.web.RestWebController.getUser(java.lang.String)
+2017-09-22 15:43:52.004 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/upload],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.secureweb.web.RestWebController.uploadFile(org.springframework.web.multipart.MultipartFile,java.lang.String)
+ 10800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.secureweb.web.RestWebController.uploadFile(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2017-09-22 15:43:52.004 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/getImg],methods=[GET]}" onto public java.lang.String com.secureweb.web.RestWebController.getImgPath(java.lang.String)
+ 10800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getImg],methods=[GET]}" onto public java.lang.String com.secureweb.web.RestWebController.getImgPath(java.lang.String)
+2017-09-22 15:43:52.004 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/extractusers],methods=[GET]}" onto public void com.secureweb.web.RestWebController.extractUserInfo(java.lang.String)
+ 10800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/extractusers],methods=[GET]}" onto public void com.secureweb.web.RestWebController.extractUserInfo(java.lang.String)
+2017-09-22 15:43:52.004 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.login(org.springframework.ui.Model,java.lang.String,java.lang.String)
+ 10800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.login(org.springframework.ui.Model,java.lang.String,java.lang.String)
+2017-09-22 15:43:52.004 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/ || /welcome],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.welcome(org.springframework.ui.Model)
+ 10800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ || /welcome],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.welcome(org.springframework.ui.Model)
+2017-09-22 15:43:52.004 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/registration],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.registration(org.springframework.ui.Model)
+ 10800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registration],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.registration(org.springframework.ui.Model)
+2017-09-22 15:43:52.004 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/registration],methods=[POST]}" onto public java.lang.String com.secureweb.web.UserController.registration(com.secureweb.model.User,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+ 10800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registration],methods=[POST]}" onto public java.lang.String com.secureweb.web.UserController.registration(com.secureweb.model.User,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+2017-09-22 15:43:52.020 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 10800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-22 15:43:52.021 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 10800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-22 15:43:52.042 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 10800 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-22 15:43:52.042 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 10800 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-22 15:43:52.089 2017-09-22 15:43:52 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 10800 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-22 15:43:52.293 2017-09-22 15:43:52 | INFO  | [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter:afterSingletonsInstantiated:431 - Registering beans for JMX exposure on startup
+ 10800 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-09-22 15:43:52.395 2017-09-22 15:43:52 | INFO  | [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:start:162 - Tomcat started on port(s): 8080 (http)
+ 10800 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-09-22 15:43:52.397 2017-09-22 15:43:52 | INFO  | [main] com.secureweb.WebApplication:logStarted:57 - Started WebApplication in 7.921 seconds (JVM running for 8.416)
+ 10800 --- [main] com.secureweb.WebApplication             : Started WebApplication in 7.921 seconds (JVM running for 8.416)
+2017-09-22 15:44:00.003 2017-09-22 15:44:00 | INFO  | [pool-2-thread-1] com.secureweb.scheduler.TaskScheduler:reportCurrentTime:35 - scheduler>>>15:44:00
+ 10800 --- [pool-2-thread-1] com.secureweb.scheduler.TaskScheduler    : scheduler>>>15:44:00
+2017-09-22 15:44:20.014 2017-09-22 15:44:20 | INFO  | [pool-2-thread-1] com.secureweb.scheduler.TaskScheduler:reportCurrentTime:35 - scheduler>>>15:44:20
+ 10800 --- [pool-2-thread-1] com.secureweb.scheduler.TaskScheduler    : scheduler>>>15:44:20
+2017-09-22 15:44:40.004 2017-09-22 15:44:40 | INFO  | [pool-2-thread-1] com.secureweb.scheduler.TaskScheduler:reportCurrentTime:35 - scheduler>>>15:44:40
+ 10800 --- [pool-2-thread-1] com.secureweb.scheduler.TaskScheduler    : scheduler>>>15:44:40
+2017-09-22 16:37:28 | INFO  | [main] com.secureweb.WebApplication:logStarting:48 - Starting WebApplication on SLAP263 with PID 10588 (D:\S2\MyOyster\eclipse-workspace-8\secureweb\target\classes started by Dipeshn in D:\S2\MyOyster\eclipse-workspace-8\secureweb)
+2017-09-22 16:37:28 | INFO  | [main] com.secureweb.WebApplication:logStartupProfileInfo:666 - No active profile set, falling back to default profiles: default
+2017-09-22 16:37:28 | INFO  | [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:prepareRefresh:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Fri Sep 22 16:37:28 IST 2017]; root of context hierarchy
+2017-09-22 16:37:31 | INFO  | [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:postProcessAfterInitialization:328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd92bfc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-09-22 17:20:01 | INFO  | [main] com.secureweb.WebApplication:logStarting:48 - Starting WebApplication on SLAP263 with PID 9096 (D:\S2\MyOyster\eclipse-workspace-8\secureweb\target\classes started by Dipeshn in D:\S2\MyOyster\eclipse-workspace-8\secureweb)
+2017-09-22 17:20:01 | INFO  | [main] com.secureweb.WebApplication:logStartupProfileInfo:666 - No active profile set, falling back to default profiles: default
+2017-09-22 17:20:01 | INFO  | [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:prepareRefresh:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Fri Sep 22 17:20:01 IST 2017]; root of context hierarchy
+2017-09-22 17:20:03 | INFO  | [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:postProcessAfterInitialization:328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd92bfc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-09-22 17:20:04 | INFO  | [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:initialize:81 - Tomcat initialized with port(s): 8080 (http)
+2017-09-22 17:20:04 | INFO  | [main] org.apache.catalina.core.StandardService:log:180 - Starting service Tomcat
+2017-09-22 17:20:04 | INFO  | [main] org.apache.catalina.core.StandardEngine:log:180 - Starting Servlet Engine: Apache Tomcat/8.0.33
+2017-09-22 17:20:44 | INFO  | [main] com.secureweb.WebApplication:logStarting:48 - Starting WebApplication on SLAP263 with PID 7176 (D:\S2\MyOyster\eclipse-workspace-8\secureweb\target\classes started by Dipeshn in D:\S2\MyOyster\eclipse-workspace-8\secureweb)
+2017-09-22 17:20:44 | INFO  | [main] com.secureweb.WebApplication:logStartupProfileInfo:666 - No active profile set, falling back to default profiles: default
+2017-09-22 17:20:44 | INFO  | [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:prepareRefresh:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Fri Sep 22 17:20:44 IST 2017]; root of context hierarchy
+2017-09-22 17:20:47 | INFO  | [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:postProcessAfterInitialization:328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd92bfc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-09-22 17:20:47 | INFO  | [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:initialize:81 - Tomcat initialized with port(s): 8080 (http)
+2017-09-22 17:20:47 | INFO  | [main] org.apache.catalina.core.StandardService:log:180 - Starting service Tomcat
+2017-09-22 17:20:47 | INFO  | [main] org.apache.catalina.core.StandardEngine:log:180 - Starting Servlet Engine: Apache Tomcat/8.0.33
+2017-09-22 17:20:48 | INFO  | [localhost-startStop-1] org.apache.jasper.servlet.TldScanner:log:180 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-09-22 17:20:48 | INFO  | [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/secureweb]:log:180 - Initializing Spring embedded WebApplicationContext
+2017-09-22 17:20:48 | INFO  | [localhost-startStop-1] org.springframework.web.context.ContextLoader:prepareEmbeddedWebApplicationContext:272 - Root WebApplicationContext: initialization completed in 3854 ms
+2017-09-22 17:20:48 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-22 17:20:48 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-22 17:20:48 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-22 17:20:48 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-22 17:20:48 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.DelegatingFilterProxyRegistrationBean:configure:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-09-22 17:20:48 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.ServletRegistrationBean:onStartup:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-22 17:20:49 | INFO  | [localhost-startStop-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:createNativeEntityManagerFactory:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-22 17:20:51 | INFO  | [localhost-startStop-1] org.springframework.security.web.DefaultSecurityFilterChain:<init>:28 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b8da0e1, org.springframework.security.web.context.SecurityContextPersistenceFilter@11fb8725, org.springframework.security.web.header.HeaderWriterFilter@2fbb2eeb, org.springframework.security.web.authentication.logout.LogoutFilter@5664169, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2945d432, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a199ec0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23e01cc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e66dbc, org.springframework.security.web.session.SessionManagementFilter@31dace75, org.springframework.security.web.access.ExceptionTranslationFilter@24fc5a2c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f20bb55]
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:initControllerAdviceCache:539 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Fri Sep 22 17:20:44 IST 2017]; root of context hierarchy
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/getImg],methods=[GET]}" onto public java.lang.String com.secureweb.web.RestWebController.getImgPath(java.lang.String)
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/detail],methods=[GET]}" onto public java.util.List<com.secureweb.model.User> com.secureweb.web.RestWebController.getUserDetail(java.lang.String)
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/edituser],methods=[GET]}" onto public java.util.List<com.secureweb.model.User> com.secureweb.web.RestWebController.getUser(java.lang.String)
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/upload],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.secureweb.web.RestWebController.uploadFile(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/extractusers],methods=[GET]}" onto public void com.secureweb.web.RestWebController.extractUserInfo(java.lang.String)
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/updateuser],methods=[POST]}" onto public java.lang.String com.secureweb.web.RestWebController.updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.login(org.springframework.ui.Model,java.lang.String,java.lang.String)
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/registration],methods=[POST]}" onto public java.lang.String com.secureweb.web.UserController.registration(com.secureweb.model.User,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/registration],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.registration(org.springframework.ui.Model)
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/ || /welcome],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.welcome(org.springframework.ui.Model)
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter:afterSingletonsInstantiated:431 - Registering beans for JMX exposure on startup
+2017-09-22 17:20:51 | INFO  | [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:start:162 - Tomcat started on port(s): 8080 (http)
+2017-09-22 17:20:51 | INFO  | [main] com.secureweb.WebApplication:logStarted:57 - Started WebApplication in 7.947 seconds (JVM running for 8.378)
+2017-09-22 17:21:00 | INFO  | [pool-2-thread-1] com.secureweb.scheduler.TaskScheduler:reportCurrentTime:35 - scheduler>>>17:21:00
+2017-09-22 17:21:20 | INFO  | [pool-2-thread-1] com.secureweb.scheduler.TaskScheduler:reportCurrentTime:35 - scheduler>>>17:21:20
+2017-09-26 10:54:14 | INFO  | [main] com.secureweb.WebApplication:logStarting:48 - Starting WebApplication on SLAP263 with PID 3804 (D:\S2\MyOyster\eclipse-workspace-8\secureweb\target\classes started by Dipeshn in D:\S2\MyOyster\eclipse-workspace-8\secureweb)
+2017-09-26 10:54:14 | INFO  | [main] com.secureweb.WebApplication:logStartupProfileInfo:666 - No active profile set, falling back to default profiles: default
+2017-09-26 10:54:14 | INFO  | [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:prepareRefresh:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Tue Sep 26 10:54:14 IST 2017]; root of context hierarchy
+2017-09-26 10:54:17 | INFO  | [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:postProcessAfterInitialization:328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd92bfc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-09-26 10:54:18 | INFO  | [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:initialize:81 - Tomcat initialized with port(s): 8080 (http)
+2017-09-26 10:54:18 | INFO  | [main] org.apache.catalina.core.StandardService:log:180 - Starting service Tomcat
+2017-09-26 10:54:18 | INFO  | [main] org.apache.catalina.core.StandardEngine:log:180 - Starting Servlet Engine: Apache Tomcat/8.0.33
+2017-09-26 10:54:19 | INFO  | [localhost-startStop-1] org.apache.jasper.servlet.TldScanner:log:180 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-09-26 10:54:19 | INFO  | [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/secureweb]:log:180 - Initializing Spring embedded WebApplicationContext
+2017-09-26 10:54:19 | INFO  | [localhost-startStop-1] org.springframework.web.context.ContextLoader:prepareEmbeddedWebApplicationContext:272 - Root WebApplicationContext: initialization completed in 4253 ms
+2017-09-26 10:54:19 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-26 10:54:19 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-26 10:54:19 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-26 10:54:19 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-26 10:54:19 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.DelegatingFilterProxyRegistrationBean:configure:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-09-26 10:54:19 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.ServletRegistrationBean:onStartup:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-26 10:54:20 | INFO  | [localhost-startStop-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:createNativeEntityManagerFactory:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-26 10:54:23 | INFO  | [localhost-startStop-1] org.springframework.security.web.DefaultSecurityFilterChain:<init>:28 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d5f4705, org.springframework.security.web.context.SecurityContextPersistenceFilter@3561ced6, org.springframework.security.web.header.HeaderWriterFilter@4ca25c9f, org.springframework.security.web.authentication.logout.LogoutFilter@78254b0b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@707add48, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6089df3d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@358d1cc3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42d591ea, org.springframework.security.web.session.SessionManagementFilter@165ec10d, org.springframework.security.web.access.ExceptionTranslationFilter@42a07cf7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@381fbbf8]
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:initControllerAdviceCache:539 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Tue Sep 26 10:54:14 IST 2017]; root of context hierarchy
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/edituser],methods=[GET]}" onto public java.util.List<com.secureweb.model.User> com.secureweb.web.RestWebController.getUser(java.lang.String)
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/detail],methods=[GET]}" onto public java.util.List<com.secureweb.model.User> com.secureweb.web.RestWebController.getUserDetail(java.lang.String)
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/upload],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.secureweb.web.RestWebController.uploadFile(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/updateuser],methods=[POST]}" onto public java.lang.String com.secureweb.web.RestWebController.updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/getImg],methods=[GET]}" onto public java.lang.String com.secureweb.web.RestWebController.getImgPath(java.lang.String)
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/extractusers],methods=[GET]}" onto public void com.secureweb.web.RestWebController.extractUserInfo(java.lang.String)
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/ || /welcome],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.welcome(org.springframework.ui.Model)
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/registration],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.registration(org.springframework.ui.Model)
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/registration],methods=[POST]}" onto public java.lang.String com.secureweb.web.UserController.registration(com.secureweb.model.User,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.login(org.springframework.ui.Model,java.lang.String,java.lang.String)
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter:afterSingletonsInstantiated:431 - Registering beans for JMX exposure on startup
+2017-09-26 10:54:24 | INFO  | [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:start:162 - Tomcat started on port(s): 8080 (http)
+2017-09-26 10:54:24 | INFO  | [main] com.secureweb.WebApplication:logStarted:57 - Started WebApplication in 11.244 seconds (JVM running for 12.234)
+2017-09-26 10:54:40 | INFO  | [pool-2-thread-1] com.secureweb.scheduler.TaskScheduler:reportCurrentTime:35 - scheduler>>>10:54:40
+2017-09-26 10:55:00 | INFO  | [pool-2-thread-1] com.secureweb.scheduler.TaskScheduler:reportCurrentTime:35 - scheduler>>>10:55:00
+2017-09-26 10:55:54 | INFO  | [main] com.secureweb.WebApplication:logStarting:48 - Starting WebApplication on SLAP263 with PID 14312 (D:\S2\MyOyster\eclipse-workspace-8\secureweb\target\classes started by Dipeshn in D:\S2\MyOyster\eclipse-workspace-8\secureweb)
+2017-09-26 10:55:54 | INFO  | [main] com.secureweb.WebApplication:logStartupProfileInfo:666 - No active profile set, falling back to default profiles: default
+2017-09-26 10:55:54 | INFO  | [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:prepareRefresh:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Tue Sep 26 10:55:54 IST 2017]; root of context hierarchy
+2017-09-26 10:55:57 | INFO  | [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:postProcessAfterInitialization:328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd92bfc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-09-26 10:55:57 | INFO  | [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:initialize:81 - Tomcat initialized with port(s): 8080 (http)
+2017-09-26 10:55:57 | INFO  | [main] org.apache.catalina.core.StandardService:log:180 - Starting service Tomcat
+2017-09-26 10:55:57 | INFO  | [main] org.apache.catalina.core.StandardEngine:log:180 - Starting Servlet Engine: Apache Tomcat/8.0.33
+2017-09-26 10:55:58 | INFO  | [localhost-startStop-1] org.apache.jasper.servlet.TldScanner:log:180 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-09-26 10:55:58 | INFO  | [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/secureweb]:log:180 - Initializing Spring embedded WebApplicationContext
+2017-09-26 10:55:58 | INFO  | [localhost-startStop-1] org.springframework.web.context.ContextLoader:prepareEmbeddedWebApplicationContext:272 - Root WebApplicationContext: initialization completed in 3285 ms
+2017-09-26 10:55:58 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-26 10:55:58 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-26 10:55:58 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-26 10:55:58 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-26 10:55:58 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.DelegatingFilterProxyRegistrationBean:configure:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-09-26 10:55:58 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.ServletRegistrationBean:onStartup:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-26 10:55:58 | INFO  | [localhost-startStop-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:createNativeEntityManagerFactory:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-26 10:56:00 | INFO  | [localhost-startStop-1] org.springframework.security.web.DefaultSecurityFilterChain:<init>:28 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d67a237, org.springframework.security.web.context.SecurityContextPersistenceFilter@759e3bd9, org.springframework.security.web.header.HeaderWriterFilter@4cd62f47, org.springframework.security.web.authentication.logout.LogoutFilter@349bb7a2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@55f05e52, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3944228b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59734c03, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d48a46b, org.springframework.security.web.session.SessionManagementFilter@53eb7373, org.springframework.security.web.access.ExceptionTranslationFilter@8ea355d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@60b0e5df]
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:initControllerAdviceCache:539 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Tue Sep 26 10:55:54 IST 2017]; root of context hierarchy
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/updateuser],methods=[POST]}" onto public java.lang.String com.secureweb.web.RestWebController.updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/extractusers],methods=[GET]}" onto public void com.secureweb.web.RestWebController.extractUserInfo(java.lang.String)
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/detail],methods=[GET]}" onto public java.util.List<com.secureweb.model.User> com.secureweb.web.RestWebController.getUserDetail(java.lang.String)
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/upload],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.secureweb.web.RestWebController.uploadFile(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/getImg],methods=[GET]}" onto public java.lang.String com.secureweb.web.RestWebController.getImgPath(java.lang.String)
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/edituser],methods=[GET]}" onto public java.util.List<com.secureweb.model.User> com.secureweb.web.RestWebController.getUser(java.lang.String)
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.login(org.springframework.ui.Model,java.lang.String,java.lang.String)
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/registration],methods=[POST]}" onto public java.lang.String com.secureweb.web.UserController.registration(com.secureweb.model.User,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/registration],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.registration(org.springframework.ui.Model)
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/ || /welcome],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.welcome(org.springframework.ui.Model)
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter:afterSingletonsInstantiated:431 - Registering beans for JMX exposure on startup
+2017-09-26 10:56:01 | INFO  | [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:start:162 - Tomcat started on port(s): 8080 (http)
+2017-09-26 10:56:01 | INFO  | [main] com.secureweb.WebApplication:logStarted:57 - Started WebApplication in 7.305 seconds (JVM running for 7.872)
+2017-09-26 10:56:30 | INFO  | [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/secureweb]:log:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-26 10:56:30 | INFO  | [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet:initServletBean:487 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-26 10:56:30 | INFO  | [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet:initServletBean:506 - FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2017-09-26 10:59:13 | INFO  | [http-nio-8080-exec-9] com.secureweb.web.UserController:welcome:87 - sl4j logger--1
+2017-09-26 11:42:08 | INFO  | [main] com.secureweb.WebApplication:logStarting:48 - Starting WebApplication on SLAP263 with PID 10876 (D:\S2\MyOyster\eclipse-workspace-8\secureweb\target\classes started by Dipeshn in D:\S2\MyOyster\eclipse-workspace-8\secureweb)
+2017-09-26 11:42:08 | INFO  | [main] com.secureweb.WebApplication:logStartupProfileInfo:666 - No active profile set, falling back to default profiles: default
+2017-09-26 11:42:09 | INFO  | [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:prepareRefresh:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Tue Sep 26 11:42:09 IST 2017]; root of context hierarchy
+2017-09-26 11:42:11 | INFO  | [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:postProcessAfterInitialization:328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd92bfc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-09-26 11:42:12 | INFO  | [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:initialize:81 - Tomcat initialized with port(s): 8080 (http)
+2017-09-26 11:42:12 | INFO  | [main] org.apache.catalina.core.StandardService:log:180 - Starting service Tomcat
+2017-09-26 11:42:12 | INFO  | [main] org.apache.catalina.core.StandardEngine:log:180 - Starting Servlet Engine: Apache Tomcat/8.0.33
+2017-09-26 11:42:12 | INFO  | [localhost-startStop-1] org.apache.jasper.servlet.TldScanner:log:180 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-09-26 11:42:12 | INFO  | [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/secureweb]:log:180 - Initializing Spring embedded WebApplicationContext
+2017-09-26 11:42:12 | INFO  | [localhost-startStop-1] org.springframework.web.context.ContextLoader:prepareEmbeddedWebApplicationContext:272 - Root WebApplicationContext: initialization completed in 3676 ms
+2017-09-26 11:42:13 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-26 11:42:13 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-26 11:42:13 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-26 11:42:13 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.FilterRegistrationBean:configure:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-26 11:42:13 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.DelegatingFilterProxyRegistrationBean:configure:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-09-26 11:42:13 | INFO  | [localhost-startStop-1] org.springframework.boot.context.embedded.ServletRegistrationBean:onStartup:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-26 11:42:13 | INFO  | [localhost-startStop-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:createNativeEntityManagerFactory:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-26 11:42:15 | INFO  | [localhost-startStop-1] org.springframework.security.web.DefaultSecurityFilterChain:<init>:28 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d9afeb2, org.springframework.security.web.context.SecurityContextPersistenceFilter@12f8f286, org.springframework.security.web.header.HeaderWriterFilter@1035f97a, org.springframework.security.web.authentication.logout.LogoutFilter@4e0dfe09, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7fe4a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b188a67, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ab6edee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@599ee7ea, org.springframework.security.web.session.SessionManagementFilter@6d58dbb2, org.springframework.security.web.access.ExceptionTranslationFilter@5775b3eb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28c4d634]
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:initControllerAdviceCache:539 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799d4f69: startup date [Tue Sep 26 11:42:09 IST 2017]; root of context hierarchy
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/updateuser],methods=[POST]}" onto public java.lang.String com.secureweb.web.RestWebController.updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/upload],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.secureweb.web.RestWebController.uploadFile(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/edituser],methods=[GET]}" onto public java.util.List<com.secureweb.model.User> com.secureweb.web.RestWebController.getUser(java.lang.String)
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/detail],methods=[GET]}" onto public java.util.List<com.secureweb.model.User> com.secureweb.web.RestWebController.getUserDetail(java.lang.String)
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/extractusers],methods=[GET]}" onto public void com.secureweb.web.RestWebController.extractUserInfo(java.lang.String)
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/getImg],methods=[GET]}" onto public java.lang.String com.secureweb.web.RestWebController.getImgPath(java.lang.String)
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.login(org.springframework.ui.Model,java.lang.String,java.lang.String)
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/registration],methods=[POST]}" onto public java.lang.String com.secureweb.web.UserController.registration(com.secureweb.model.User,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/registration],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.registration(org.springframework.ui.Model)
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/ || /welcome],methods=[GET]}" onto public java.lang.String com.secureweb.web.UserController.welcome(org.springframework.ui.Model)
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:register:534 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-26 11:42:15 | INFO  | [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:registerHandler:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-26 11:42:16 | INFO  | [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter:afterSingletonsInstantiated:431 - Registering beans for JMX exposure on startup
+2017-09-26 11:42:16 | INFO  | [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:start:162 - Tomcat started on port(s): 8080 (http)
+2017-09-26 11:42:16 | INFO  | [main] com.secureweb.WebApplication:logStarted:57 - Started WebApplication in 7.559 seconds (JVM running for 8.074)
+2017-09-26 11:42:24 | INFO  | [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/secureweb]:log:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-26 11:42:24 | INFO  | [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet:initServletBean:487 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-26 11:42:24 | INFO  | [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet:initServletBean:506 - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2017-09-26 11:42:34 | INFO  | [http-nio-8080-exec-7] com.secureweb.web.UserController:welcome:87 - sl4j logger--1
+2017-09-26 11:42:35 | ERROR | [http-nio-8080-exec-4] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/secureweb].[dispatcherServlet]:log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [/secureweb] threw exception [Request processing failed; nested exception is org.springframework.dao.IncorrectResultSizeDataAccessException: result returns more than one elements; nested exception is javax.persistence.NonUniqueResultException: result returns more than one elements] with root cause
+javax.persistence.NonUniqueResultException: result returns more than one elements
+	at org.hibernate.jpa.internal.QueryImpl.getSingleResult(QueryImpl.java:505)
+	at org.hibernate.jpa.criteria.compile.CriteriaQueryTypeQueryAdapter.getSingleResult(CriteriaQueryTypeQueryAdapter.java:71)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:206)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:78)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:100)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:91)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:462)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:440)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy89.findImgByUsername(Unknown Source)
+	at com.secureweb.service.FileServiceImpl.findImgByUsername(FileServiceImpl.java:34)
+	at com.secureweb.web.RestWebController.getImgPath(RestWebController.java:240)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:832)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:743)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-26 11:42:50 | ERROR | [http-nio-8080-exec-6] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/secureweb].[dispatcherServlet]:log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [/secureweb] threw exception [Request processing failed; nested exception is java.awt.image.RasterFormatException: y lies outside raster] with root cause
+java.awt.image.RasterFormatException: y lies outside raster
+	at sun.awt.image.IntegerInterleavedRaster.createWritableChild(IntegerInterleavedRaster.java:464)
+	at java.awt.image.BufferedImage.getSubimage(BufferedImage.java:1203)
+	at com.secureweb.web.RestWebController.saveScaledImage(RestWebController.java:180)
+	at com.secureweb.web.RestWebController.saveUploadedFiles(RestWebController.java:135)
+	at com.secureweb.web.RestWebController.uploadFile(RestWebController.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:832)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:743)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:869)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-26 11:46:34 | INFO  | [http-nio-8080-exec-9] com.secureweb.web.UserController:welcome:87 - sl4j logger--1
+2017-09-26 11:46:44 | ERROR | [http-nio-8080-exec-9] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/secureweb].[dispatcherServlet]:log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [/secureweb] threw exception [Request processing failed; nested exception is java.awt.image.RasterFormatException: y lies outside raster] with root cause
+java.awt.image.RasterFormatException: y lies outside raster
+	at sun.awt.image.IntegerInterleavedRaster.createWritableChild(IntegerInterleavedRaster.java:464)
+	at java.awt.image.BufferedImage.getSubimage(BufferedImage.java:1203)
+	at com.secureweb.web.RestWebController.saveScaledImage(RestWebController.java:180)
+	at com.secureweb.web.RestWebController.saveUploadedFiles(RestWebController.java:135)
+	at com.secureweb.web.RestWebController.uploadFile(RestWebController.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:832)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:743)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:869)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
