@@ -39,7 +39,7 @@ public class UserController {
     @Autowired
     private UserDetailsService userdtl;
 
-    @RequestMapping(value = "/registration", method = RequestMethod.GET)
+    @RequestMapping(value = {"/","/registration"}, method = RequestMethod.GET)
     public String registration(Model model) {
         model.addAttribute("userForm", new User());
 
@@ -71,12 +71,12 @@ public class UserController {
         return "login";
     }
 
-    @RequestMapping(value = {"/", "/welcome"}, method = RequestMethod.GET)
-    public String welcome(Model model) {
+    //@RequestMapping(value = {"/", "/welcome"}, method = RequestMethod.GET)
+   /* public String welcome(Model model) {
     	fileService.getAllFiles();
     	LOGGER.info("sl4j logger--1");
         return "welcome";
-    }
+    }*/
     
    
    
